@@ -1,0 +1,30 @@
+
+.jumbotron{
+	background-color: #2872a4; /* Blue */
+	color: #ffffff;			   /* Text White */
+/*	padding-left: 25px;
+	padding-right: 25px;*/
+}
+
+.niggerfaggot{
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+.container-fluid {
+/*    padding: 60px 50px;
+*/}
+.navbar-brand{
+	float: right;
+	color: #ffffff;
+}
+.navbar{
+	background-color: #215f89;
+	margin-bottom: 0px;
+	border-radius: 0px;
+}
+
+.bg-grey {
+    background-color: #f6f6f6;
+}
+

@@ -1,0 +1,226 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Translation/Interpreting-Applied Collaborative Research Tool </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <!-- <link rel = "stylesheet" type = "text/css" href = "styles.css" media = "screen"/> -->
+
+  <style>
+  .jumbotron{
+  background-color: #2872a4; /* Blue */
+  color: #ffffff;        /* Text White */
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+
+.paddingDiv{
+  padding-left: 15%;
+  padding-right: 15%;
+
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+.container-fluid {
+/*    padding: 60px 50px;*/
+  border-bottom: 1px;
+}
+.navbar-brand{
+  float: right;
+  color: #ffffff;
+}
+.navbar{
+  background-color: #215f89;
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+
+.bg-grey {
+    background-color: #f6f6f6;
+}
+
+.dropdown-item:hover{
+  background-color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#table1{
+  background-color: white;
+  color: black;
+}
+
+.dropdown{
+
+}
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+  </style>
+</head>
+<body>
+<div class="paddingDiv">
+  <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">Login</a>
+  <a class="navbar-brand" href="#">Register</a>
+  <a class="navbar-brand" href="#">Forum</a>
+  <a class="navbar-brand" href="#">Word of the Day</a>
+  <a class="navbar-brand" href="#">Feedback</a>
+
+</nav>
+</div>
+<div class="paddingDiv" style = "margin-bottom: 0px;
+  border-radius: 0px;">
+  <div class="jumbotron text-center">
+  <div class="container">
+
+    <hgroup class="mb20">
+    <h2>Search Results</h2>
+    <h2 class="lead"><strong class="text-danger">2</strong> results were found for the search:<strong class="text-danger"> :^)</strong></h2>               
+  </hgroup>
+
+
+  <form class="form-inline">
+
+      <!--     <section class="col-xs-12 col-sm-6 col-md-12">
+    <h4>English</h4> -->
+                  <div class="container-fluid" id = "table1"style="border:2px solid #215f89;">
+    <div class="row">                                           
+      <!-- Need to add theme, buttons -->
+      <p>
+      <span class="pull-left"><u>English</u></span>
+      <span class="right"><u>French</u></span>   
+      <p>
+      <div class="col-xs-12"><span class="pull-left"><b>[English Word](meaning)</b> - <i>noun</i></span>
+        <span class="right"><b>Translated Word: Omelette du fromage
+        </b> 
+           </div> 
+
+
+    </div>                      
+    <br>                            
+    <div class="row">                                           
+      <!-- Need to add theme, buttons -->                       
+      <div class="col-xs-12"><span class="pull-left"> French - Blah Blah Blah hohoho baguettes yes le snails hoho i am le french man</span>
+      <br>  
+      <span class="pull-left"> English - Same sentence as before but it's in English... <a href="#">[thing you can click on?]</a></span>
+      </div>
+    </div>      
+      </div>
+    <div class="container-fluid" id = "table1"style="border:2px solid #215f89;">
+    <div class="row">                                           
+      <div class="col-xs-12"><span class="pull-left"><b>[English Word](meaning)</b> - <i>noun</i></span>
+        <span class="right"><b>Translated Word: Omelette du fromage</b> 
+           </div> 
+
+
+    </div>                      
+    <br>                               
+    <div class="row">                                           
+      <!-- Need to add theme, buttons -->                       
+      <div class="col-xs-12"><span class="pull-left"> French - Blah Blah Blah hohoho baguettes yes le snails hoho i am le french man</span>
+      <br>  
+      <span class="pull-left"> English - Same sentence as before but it's in English... <a href="#">[thing you can click on?]</a></span>
+      </div>
+    </div>      
+      </div>
+
+    <div class="container-fluid" id = "table1"style="border:2px solid #215f89;">
+    <span class="pull-left"><u><h4>External Sources</h4></u></span>
+    <span class="pull-right">Sort By:
+    <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Select
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Rating</a>
+    <br>
+    <a class="dropdown-item" href="#">Category</a>
+  </div>
+</div></span>
+    <div class="row">                                           
+      <!-- Need to add theme, buttons -->
+      <table class="table table-striped">
+    <thead>
+        <tr>
+            <th>English</th>
+            <th></th>
+            <th> French</th>
+            <th></th>
+            <th></th>
+            <th>Source</th>
+            <th>Rating</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>[Word Meaning]</td>
+            <td>Blah blah blah [word meaning] blah blah<br></td>
+            <td>Omelette Du Fromage</td>
+            <td>Omelette du fromage, omlette du? fromage
+            <td></td>
+            <td>www.google.co.uk</td>
+            <td>some stars or some shit</td>
+        </tr>
+        <tr>
+            <td>[Word Meaning]</td>
+            <td>Blah blah blah [word meaning] blah blah</td>
+            <td>Omelette Du Fromage</td>
+            <td>Omelette du fromage, omlette du? fromage
+            <td></td>
+            <td>www.google.co.uk</td>
+            <td>some stars or some shit</td>
+        </tr>
+        <tr>
+            <td>[Word Meaning]</td>
+            <td>Blah blah blah [word meaning] blah blah</td>
+            <td>Omelette Du Fromage</td>
+            <td>Omelette du fromage, omlette du? fromage
+            <td></td>
+            <td>www.google.co.uk</td>
+            <td>some stars or some shit</td>
+        </tr>
+        <tr>
+        <td>[Word Meaning]</td>
+            <td>Blah blah blah [word meaning] blah blah</td>
+            <td>Omelette Du Fromage</td>
+            <td>Omelette du fromage, omlette du? fromage
+            <td></td>
+            <td>www.google.co.uk</td>
+            <td>some stars or some shit</td>
+        </td>
+    </tbody>
+</table>
+
+    </div>                      
+    <br>
+    <br>                                     
+      </div>
+  </form>
+<!-- <div class = "paddingDiv">
+<div class="footer">&copy; 2017 <strong>TMNT</strong></div>
+</div> -->
+</body>
+</html>
